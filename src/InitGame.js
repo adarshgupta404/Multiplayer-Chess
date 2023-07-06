@@ -47,7 +47,7 @@ export default function InitGame({ setRoom, setOrientation, setPlayers }) {
           variant="standard"
           error={Boolean(roomError)}
           helperText={!roomError ? 'Enter a room ID' : `Invalid room ID: ${roomError}` }
-        />
+          />
       </CustomDialog>
       {/* Button for starting a game */}
     <Button
