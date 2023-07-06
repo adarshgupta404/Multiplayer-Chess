@@ -97,8 +97,8 @@ import {
     
     // Game component returned jsx
     return (
-      <Stack>
-        <Card>
+      <Stack style={{width:"700px"}}>
+        <Card style={{width:"600px"}}>
           <CardContent>
             <Typography variant="h5">Room ID: {room}</Typography>
           </CardContent>
