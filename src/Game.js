@@ -117,7 +117,7 @@ import {
           </div>
           {players.length > 0 && (
             <Box>
-              <List>
+              <List style={{ border: '1px solid white',margin:"10px"}}>
                 <ListSubheader>Players</ListSubheader>
                 {players.map((p) => (
                   <ListItem key={p.id}>
